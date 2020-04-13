@@ -1,0 +1,531 @@
+.fixbar{
+  position: relative;
+  right: 0.5px;
+}
+
+.fixbar{
+  position: fixed;
+    top: 0;
+    height: 75px;
+    
+    color: #66cccc;
+  background: linear-gradient(to bottom right, #453d82, #130957 );
+  width: 100%;
+  margin-left: 20px;
+}
+
+
+
+.bigproftxt{
+  position: relative;
+  bottom:35px;
+  left:440px;
+  font-family: "French Script MT";
+  font-size: 60px;
+  
+}
+
+.set, .home{
+  color: white;
+  border: 2px solid purple;
+  font-family: "arial";
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 15px;
+  margin-left:20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+
+body{ 
+background:#b2a9b6;
+
+
+}
+
+body{ 
+background:#b2a9b6;
+
+}
+
+a{color:white;
+text-decoration:none;}
+
+p3{color:#1b6192;
+font-family:verdana;
+font-size:15px;
+font-weight:bold;}
+
+p6{color:#1b6192;
+font-family:verdana;
+font-size:15px;
+word-spacing:10px;}
+
+
+
+#column-1{left:0px;
+top:0px;
+background:white;
+width:580px;
+height:200px;
+border-radius:3px/3px;
+font-size:15px;
+font-family:verdana;
+color:#1b6192;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+}
+
+#postbox{
+height:105px;
+outline:none;
+
+border:white;
+background:#e9f0f2;
+
+width:580px;
+}
+
+textarea{
+    resize: none;
+    font-family: "arial";
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+    margin: 0;
+}
+.lvid{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    font-size: 15px;
+    color: purple;
+    width: 50px;
+    height: 30px;
+    margin: 0;
+}
+.takepic{
+    position: relative;
+    bottom: 38px;
+    left: 70px;
+    font-size: 15px;
+    color: purple;
+    width: 50px;
+    height: 30px;
+    margin: 0;
+}
+
+
+.selectpic{
+    position: relative;
+    bottom: 38px;
+    left: 70px;
+    font-size: 15px;
+    color: purple;
+    width: 50px;
+    height: 30px;
+    margin: 0;
+}
+#live{
+    width:40px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+    right: 20px;
+    
+   }
+
+   #takeimg{
+    width:40px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+    right: 30px;
+   }
+
+   #chooseimg{
+    width:40px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+    right: 30px;
+   }
+
+   #tb{
+    position: relative;
+margin: 0;
+width:150px;
+    height: 50px;
+  top:140px;
+  left: 70px;
+  border: 2px solid purple;
+  background:none;
+  border-radius:20px;
+   }
+
+   
+
+   #selectimgb{
+     position: relative;
+margin: 0;
+width:150px;
+    height: 50px;
+  top:140px;
+  left: 90px;
+  border: 2px solid purple;
+  background:none;
+  border-radius:20px;
+   }
+
+   #liveb{
+    position: relative;
+margin: 0;
+width:130px;
+    height: 50px;
+  top:140px;
+  left: 50px;
+  border: 2px solid purple;
+  background:none;
+  border-radius:20px;
+   }
+
+#postboxpos{top:45px;
+left:10px;
+height:105px;
+width:580px;
+resize:none;
+}
+
+
+.post{top:70px;
+left:240px;
+position:absolute;
+width:600px;
+height:210px;
+
+
+}
+
+
+.posting{top:90px;
+left:240px;
+position:absolute;
+width:600px;
+height:210px;
+
+
+}
+
+
+
+.post1{top:290px;
+left:240px;
+position:absolute;
+background:white;
+width:50px;
+height:600px;
+border-radius:3px/3px;
+
+padding-right:10px;
+padding-top:10px;
+}
+
+.post145{
+    top:370px;
+left:240px;
+position:absolute;
+background:white;
+width:580px;
+height:600px;
+border-radius:3px/3px;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+}
+
+#ppagePic{
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  border: 2px solid purple;
+  border-radius: 50%;
+  position: relative;
+  top: 17px;
+  left: 20px;
+}
+
+#myUserName{
+  margin: 0;
+  position: relative;
+  left: 200px;
+  bottom: 140px;
+  font-family: "Freestyle Script";
+  font-weight: bold;
+  font-size: 50px;
+  width: 60px;
+}
+
+#myBio{
+  margin: 0;
+  position: relative;
+  bottom: 140px;
+  left: 200px;
+  font-family: "Freestyle Script";
+  font-size: 30px;
+  width: 200px;
+}
+
+#editp{
+  margin: 0;
+  border: 2px solid purple;
+  border-radius: 30px;
+  color: purple;
+  text-decoration: none;
+  
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  bottom: 260px;
+  left: 530px;
+  width: 60px;
+}
+
+#myCount{
+  margin: 0;
+  position: relative;
+  bottom: 110px;
+  left: 200px;
+  font-family: "arial";
+  font-size: 15px;
+  width: 200px;
+}
+
+.pos2{
+    position: relative;
+    
+    right: 10px;
+margin: 0;
+background:white;
+width:580px;
+height:600px;
+border-radius:3px/3px;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+}
+
+#amount{
+    position: relative;
+    top:80px;
+    color:purple;
+    font-family: "arial"
+}
+
+#codpost{
+    position: relative;
+    top:30px;
+    height: 400px;
+    width: 580px;
+}
+#fire{
+    
+  height: 30px;
+  width: 30px;
+}
+
+
+#fireb{
+    position: relative;
+    bottom: 65px;
+    margin:0; 
+
+    right: 215px;
+    border:none;
+    background:none;
+}
+
+
+#like2{
+    position: relative;
+    bottom: 65px;
+    margin:0; 
+
+    right: 160px;
+    border:none;
+    background:none;
+}
+
+#commentb{
+    border:none;
+    background:none;
+    position: relative;
+    bottom: 65px;
+    right: 215px;
+    margin:0; 
+
+}
+
+#com2{
+    border:none;
+    background:none;
+    position: relative;
+    bottom: 65px;
+    right: 163px;
+    margin:0; 
+
+}
+
+
+
+#caption1{
+    margin:0;
+    font-family: "Arial Unicode MS";
+}
+
+.poster{
+    position: relative;
+    bottom: 600px;
+    left: 40px;
+    color: purple;
+    margin: 0;
+}
+
+.tag{
+    margin: 0;
+    color: blue;
+}
+
+#comment{
+    height: 30px;
+  width: 30px;
+}
+
+#repost{
+    height: 50px;
+    width: 50px;
+}
+#repostb{
+    border:none;
+    background:none;
+    position: relative;
+    bottom: 57px;
+    right:220px;
+    margin:0; 
+}
+
+#rep2{
+    border:none;
+    background:none;
+    position: relative;
+    bottom: 57px;
+    right:168px;
+    margin:0;
+}
+
+#post2text{
+top:0px;
+padding-top:10px;
+height:40px;
+width:50px;}
+
+
+.suggest{
+    margin:0;
+    position: relative;
+    right: 10px;
+background:white;
+
+width:580px;
+height:300px;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+border-radius:3px/3px;
+}
+
+#profilesuggest{
+    width:50px;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    top:30px;
+}
+
+.sug{
+    margin: 0;
+    color: purple;
+    font-family: "arial";
+}
+
+.follow, .follow1{
+  margin: 0;
+  padding-top: 0;
+    padding-bottom:0;
+    position: relative;
+    bottom: 35px;
+    left:450px;
+    height: 30px;
+    width: 100px;
+    background:none;
+    border: 2px solid purple;
+    border-radius: 30px;
+ }  
+
+ .follow1{
+    position: relative;
+    top:-20px;
+    /*top:-2px;
+    bottom: 5px;*/
+ }
+
+
+#profileimg1{
+    width:50px;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    right: 105px;
+    top:35px;
+}
+ #profileimg{
+    margin: 0;
+    position: relative;
+    right: 105px;
+    top:30px;
+    width:50px;
+    height: 50px;
+ }
+
+#hey{
+    position: relative;
+    bottom: 15px;
+    padding-bottom:0;
+    color: purple;
+    font-family: "arial";
+    font-size:18px;
+}
+
+#sugname{
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+    left:60px;
+    color: purple;
+    font-family: "arial";
+    font-size: 20px;
+}
+
+
+
+.profpic{
+ width: 30px;
+ height: 30px;
+border-radius: 50%;
+border: 2px solid purple;
+margin: 0;
+
+}

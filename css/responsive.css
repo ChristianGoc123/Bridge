@@ -1,0 +1,47 @@
+@media only screen and (min-width: 0px){
+	.bigLogo,
+	.logo {
+		display: none;
+	}
+
+	.full {
+		float: none;
+		text-align: center;
+		width: 100%;
+		border: none;
+	}
+
+	/**/
+
+	#signup{
+		float: none;
+		position: relative;
+		right:115px;
+
+		
+	}
+
+	
+	#login {
+		float: none;
+		position: relative;
+		right:65px;
+		bottom: 10px;
+	}
+
+	/*#rememberMe{
+		float:none;
+		position: relative;
+		right: 100px;
+		
+	}*/
+
+	#gender{
+		display: flex;
+		justify-content: center;
+		position: relative;	
+		right: 25px;
+		
+
+	}
+}*/

@@ -1,0 +1,106 @@
+body{
+	margin:0;
+	background: url("./imgh/background.jpg");
+	text-align: center;
+	background-size: cover;
+
+}
+
+
+@media screen and (min-width: 0px) {
+  .tpc {
+    margin-right: 30px;
+  }
+
+  .selc{
+  	margin-left: 30px;
+  }
+
+}
+
+.upper-border {
+	min-width: 100%;
+	height: 80px;
+}
+
+.bridge {
+	margin: -70px 0 0 0;
+	text-align: center;
+	color: #66cccc;
+	font-family: "French Script MT";
+	font-weight: bold;
+	font-size: 250%;
+	padding: 0;
+}
+
+.logo {
+	width: 144px;
+	height: 81px;
+	margin: -175px 0 0 20px;
+	padding-bottom: 15px;
+}
+
+.tpc{
+	width: 10%;
+	height: auto;
+	margin-left: 30px;
+	position: relative;
+	bottom: 45px;
+	
+}
+
+.selc{
+	width:6%;
+	height: auto;
+	margin-right: 30px;
+	position: relative;
+	bottom: 79px;
+}
+
+.nxt{
+	
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin-right: 35px;
+	margin-bottom: 5px;
+	width: 70px;
+	height: 30px;
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	box-shadow: 0;
+	border-radius: 10px;
+	color: white;
+	margin-right: 35px;
+	font-family: "arial";
+	font-size: 13px;
+
+}
+
+.tkpB{
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	position: relative;
+	bottom: 45px;
+	color: white;
+	padding: 1px;
+	font-family: "Ebrima";
+	font-size: 12px;
+	width: 18%;
+	height: 7%;
+
+}
+
+.slctB{
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	position: relative;
+	bottom: 89px;
+	color: white;
+	padding: 1px;
+	font-family: "Ebrima";
+	font-size: 12px;
+	width: 18%;
+	height: 7%;
+
+}

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background: url("Homepage background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+
+
+.BigLogo{
+    /*margin: 0px 75px 0px 75px;*/
+    float: left;
+    width: 50%;
+    transition: all 0.75s;
+    margin-left: 10px;
+    margin-top: -10px;
+    /*position: relative;
+    bottom: 50px;*/
+}
+
+.BigLogo:hover {
+    transform: scale(1.05);
+}
+
+.BigText {
+    /*position: relative;
+    top: 50px;
+    left: 40px;*/
+    color: white;
+	font-family: Edwardian Script ITC;
+	font-weight: bold;
+    font-size: 45px;
+  /*  margin-left: 10px;*/
+    text-align: center;
+}
+
+a, u{
+    text-decoration: none;
+}
+
+.Paragraph {
+    /*position: relative;
+    top: 50px;
+    left: 20px;*/
+    color: white;
+	font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.SupB,
+.LogB {
+	margin-top: 5px;
+	margin-right: 7px;
+	padding: 10px;
+	border-radius: 50px;
+	border: none;
+	height: auto;
+	background-color: #3D72AF;
+	color: white;
+	font-family: "Arial";
+	font-size: 16px;
+	width: 250px;
+	
+}
+
+
+.LogoWithText {
+    margin-top: 100px
+}
+
+    @media only screen and (max-width: 1188px) {
+
+	body {
+        margin: 0;
+        background: url("Homepage background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #LogInUrl {
+        font-size: 18px;
+    }
+
+    .BigLogo {
+        left: 50px;
+        float: none;
+        /*width: 50%;*/
+    }
+
+    .BigText {
+       
+        text-align: center;
+       /* margin-left: 10px;*/
+    }
+
+    .Paragraph {
+        text-align: center;
+         margin-left: 10px;
+    }
+
+    .SupB {
+	    left: 120px;
+	    bottom: 5px;
+	    top: 0px;
+	    margin-bottom: 30px;
+    }
+
+    .LogoWithText {
+        margin-top: 50px
+    }
+}

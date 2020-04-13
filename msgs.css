@@ -1,0 +1,233 @@
+/* The navigation bar */
+
+
+
+.mic{
+	padding:0;
+	float: left;
+	border:none;
+	background:none;
+	margin-top: 5px;
+
+}
+
+.sendit img{
+	
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+
+.file{
+	width:30px;
+	height: 30px;
+margin-top: 20px;
+	float: left;
+	margin-right: 15px;
+	padding: 0;
+}
+
+.phone{
+	width:30px;
+	height: 30px;
+    margin-top: 20px;
+	float: left;
+	margin-right: 15px;
+	padding: 0;
+}
+
+.vid{
+	width:30px;
+	height: 30px;
+	margin-top: 20px;
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+}
+
+.cam{
+	width:30px;
+	height: 30px;
+	margin-top: 20px;
+	float: left;
+	margin-right: 15px;
+}
+
+.mphone{
+	width:30px;
+	height: 30px;
+	margin-top: 20px;
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+}
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, sans-serif;
+	
+}
+
+
+
+
+.chatbox {
+	min-width: 100%;
+    
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+   
+	float: right;
+	margin-right:-100px;
+	height: 100%;
+	background: #fff;
+	position: relative;
+	top: 49px;
+	margin-right: 5px;
+	
+	
+
+	
+}
+
+
+
+.chat {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+	margin-bottom: 10px;
+}
+
+.upper{
+	position: relative;
+	left:.3px;
+}
+
+.upper{
+	position: fixed;
+	top: 0;
+	
+	width: 100%;
+	background-color: #202670;
+	
+	/*border-left: 3px solid purple;*/
+	color: white;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+
+
+.chat .chat-message {
+	width: 60%;
+	padding: 10px;
+	
+	border-radius: 10px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.hi{
+	color:purple;
+	margin-left: 128px;
+}
+
+.friend .chat-message {
+	background: purple;
+	margin-top:10px;
+	margin-left: 120px;
+    margin-right: 150px;
+	
+}
+
+.self .chat-message {
+	margin-left: 275px;
+	
+	background: grey;
+	order: -1;
+}
+
+.sendit{
+   
+	position: fixed;
+	bottom:61px;
+	right: 0;
+	border-top: 3px solid purple;
+	background-color: #101992;
+	width: 100%;
+
+	
+}
+textarea {
+
+	background: #fbfbfb;
+	width: 90%;
+	height: 15px;
+	border: 2px solid black;
+	border-radius: 3px;
+	resize: none;
+	padding: 5px;
+	font-size: 10px;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	float: left;
+	margin-left: 5px;
+	position: relative;
+	top: 15px;
+}
+
+textarea:focus {
+	background: #fff;
+}
+
+.send {
+	background: purple;
+    font-family: "arial";
+    padding: 5px;
+
+	font-size:17px;
+	color: #fff;
+	border: none;
+	
+	margin-top:10px;
+	/*margin-right: 45px;
+
+	float: right;*/
+	border-radius: 3px;
+	position: relative;
+	top: 15px;
+
+	
+
+	-webkit-transaction: background .2s ease;
+	-moz-transaction: backgroud .2s ease;
+	-o-transaction: backgroud .2s ease;
+}
+
+.send:hover {
+	background: #13c8d9;
+}
+
+.chatlogs {
+	height: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	width: 100%;
+	background: none;
+
+	opacity: 50%;
+	
+	
+	
+	
+}
+

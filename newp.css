@@ -1,0 +1,169 @@
+.post89{top:90px;
+left:240px;
+position:absolute;
+width:600px;
+height:210px;
+
+
+}
+
+#column-89{
+left:0px;
+top:0px;
+background:white;
+width:580px;
+height:180px;
+border-radius:3px/3px;
+font-size:15px;
+font-family:verdana;
+color:#1b6192;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+}
+
+#passnew{
+  margin: 0;
+  border: 2px solid purple;
+  position: relative;
+  bottom: 18px;
+  left: 170px;
+  width: 150px;
+  border:2px solid purple;
+  font-family: "arial";
+  
+}
+
+#newpEnter{
+  margin: 0;
+  position: relative;
+  top: 50px;
+  right: 157px;
+  width: 150px;
+  background-color: purple;
+  border: none;
+  font-family: "arial";
+  color: white;
+  padding: 5px;
+
+}
+
+#passcon{
+   margin: 0;
+  border: 2px solid purple;
+  position: relative;
+  bottom: 18px;
+  left: 150px;
+  width: 150px;
+  border:2px solid purple;
+  font-family: "arial";
+}
+
+.cat{
+  margin: 0;
+  color: purple;
+  font-size: 15px;
+}
+
+.entnew{
+  position: relative;
+  top:2px;
+}
+
+body{ 
+background:#b2a9b6;
+
+
+}
+
+.fixbar{
+  position: relative;
+  right: 0.5px;
+}
+
+.fixbar{
+	position: fixed;
+    top: 0;
+    height: 75px;
+    
+    color: #66cccc;
+  background: linear-gradient(to bottom right, #453d82, #130957 );
+  width: 100%;
+  margin-left: 20px;
+}
+
+.bigsettingtxt{
+  position: relative;
+  bottom:35px;
+  left:440px;
+  font-family: "French Script MT";
+  font-size: 60px;
+  
+}
+
+.set, .home{
+  color: white;
+  border: 2px solid purple;
+  font-family: "arial";
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 15px;
+  margin-left:20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.gcname{
+	margin: 0;
+	position: relative;
+	top:10px;
+	border: 2px solid purple;
+	width: 300px;
+}
+
+.mem{
+	margin: 0;
+	position: relative;
+	top:15px;
+	border: 2px solid purple;
+	width: 570px;
+}
+
+.ok{
+	background-color: purple;
+	color: white;
+	position: relative;
+	top:10px;
+
+	border:none;
+	height: 22px;
+	margin: 0;
+}
+
+.gcbox{
+  text-decoration: none;
+}
+
+.cbox1{
+
+    margin: 0;
+    text-decoration: none;
+    position: relative;
+   
+   border-radius:20px;
+    font-size: 15px;
+    color: purple;
+   width: 70px;
+   border:2px solid purple;
+    text-align: center;
+}
+
+.make{
+  position: relative;
+  top: 30px;
+  margin: 0;
+  background: none;
+  border: none;
+}

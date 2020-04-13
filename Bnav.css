@@ -1,0 +1,50 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: -100px;
+    overflow: hidden;
+   /* background-color: green;*/
+   background: linear-gradient(to bottom right, #453d82, #130957 );
+    text-align: center;
+   /* border: solid 5px black;*/
+    position: relative;
+    right: .5px;
+    
+}
+
+
+
+
+li {
+    display: inline-block;
+   
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #371d60;
+}
+
+img{
+    width:30px;
+    height: auto;
+}
+
+.active {
+    background-color: purple;
+}
+
+ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,137 @@
+body{ 
+background-color: white;
+
+
+}
+
+
+
+.fixbar{
+  position: relative;
+  right: 0.5px;
+}
+
+.fixbar{
+	position: fixed;
+    top: 0;
+    height: 75px;
+    
+    color: #66cccc;
+  background: linear-gradient(to bottom right, #453d82, #130957 );
+  width: 100%;
+  margin-left: 20px;
+}
+
+.bigsettingtxt{
+  position: relative;
+  bottom:35px;
+  left:420px;
+  font-family: "French Script MT";
+  font-size: 60px;
+  
+}
+.set, .home{
+  color: white;
+  border: 2px solid purple;
+  font-family: "arial";
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 15px;
+  margin-left:20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+#column-1001{left:0px;
+top:0px;
+background:white;
+width:580px;
+
+border-radius:3px/3px;
+font-size:15px;
+font-family:verdana;
+color:#1b6192;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+}
+
+.post{top:90px;
+left:240px;
+position:absolute;
+width:600px;
+height:210px;
+
+
+}
+
+.blist{
+	margin: 0;
+	font-family: arial;
+	color: purple;
+}
+
+.buser1{
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	position: relative;
+	top: 10px;
+}
+
+
+
+.blk2{
+	position: relative;
+	top:-55px;
+}
+
+.buser02{
+	position: relative;
+	top:-30px;
+}
+
+.buser2{
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	position: relative;
+	top: 10px;
+	right: 105px;
+}
+.buser01{
+	font-family: "arial";
+	margin: 0;
+	position: relative;
+	left: 60px;
+	font-size: 20px;
+	bottom: 30px;
+	color: purple;
+}
+
+
+
+.blk{
+    position: relative;
+    bottom: 15px;
+    padding-bottom:0;
+    color: purple;
+    font-family: "arial";
+    font-size:18px;
+}
+
+.blk0{
+  margin: 0;
+  padding-top: 0;
+    padding-bottom:0;
+    position: relative;
+    bottom: 65px;
+    left:450px;
+    height: 30px;
+    width: 100px;
+    background:none;
+    border: 2px solid purple;
+    border-radius: 30px;
+ }  

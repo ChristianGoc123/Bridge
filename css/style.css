@@ -1,0 +1,314 @@
+body {
+	margin: 0;
+	background: url("../imgh/background.jpg");
+	background-size: cover;
+}
+
+
+input{
+	border:none;
+}
+
+
+.upper-border {
+	min-width: 100%;
+	height: 100px;
+}
+/* Upper Logo */
+.logo {
+	width: 144px;
+	height: 81px;
+	margin: -175px 0 0 20px;
+	padding-bottom: 15px;
+}
+
+.termsandc{
+	color:white;
+}
+
+.enterVcode{
+	width:48px;
+	height:22px;
+	color: white;
+	background-color:purple;
+	border: none;
+}
+
+.terms{
+	font-size: 10px;
+	margin-right: 5px;
+	
+}
+
+.ver{
+	font-size: 13px;
+}
+
+.bridge {
+	margin: -100px 0 0 0;
+	text-align: center;
+	color: #66cccc;
+	font-family: "French Script MT";
+	font-weight: bold;
+	font-size: 500%;
+	padding: 0;
+}
+
+.bigLogo {
+	float: left;
+	width: 40%;
+	height: 40%;
+	margin: 100px 0 0 100px;
+	transition: all 1s;
+}
+
+.bigLogo:hover {
+	transform: scale(1.1);
+}
+
+.full {
+	float: right;
+	width: 35%;
+	margin: 50px 70px 50px 0;
+	border: solid 7px #003d5d;
+	text-align: center;
+}
+
+/* From the original style.css (without the positions) */
+
+.wc2bridge {
+	font-size: 50px;
+	font-family: Gabriola;
+}
+
+.signButton {
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	color: white;
+	font-weight: bold;
+	font-family: "Kristen ITC";
+	font-size: 12px;
+	width: 150px;
+}
+
+.logButton{
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	color: white;
+	font-weight: bold;
+	font-family: "Kristen ITC";
+	font-size: 12px;
+	width: 150px;
+}
+
+
+.signUp1 {
+	font-family: Forte;
+	font-size: 40px;	
+}
+
+form {
+	font-size: 15.5px;
+	font-family: "Maiandra GD";
+}
+
+#signToAcc, #signToAcc2, #signToAcc3, #signToAcc4, #signToAcc5 {
+	font-size: 27px;
+
+
+
+}
+
+#logToAcc{
+	font-size: 27px;
+	
+}
+
+
+
+#firstname {
+	margin: 0 -33px 0 25px;
+	width: 127px;
+	position: relative;
+	right:15px;
+	left:10px;
+	bottom:18px;
+}
+
+#lastname {
+	margin: 0 -36px 0 27px;
+	width: 127px;
+	position: relative;
+	right:15px;
+	left:7px;
+	bottom:18px;
+}
+
+#email, #email2 {
+	margin: 0 -36px 0 52px;
+	width: 127px;
+	position: relative;
+	right:5px;
+	
+	bottom:18px;
+}
+
+#phoneNumber {
+	margin: 0 -36px 0 47px;
+	width: 127px;
+	position: relative;
+	right:3px;
+	
+	bottom:18px;
+}
+
+#username, #username2 {
+	margin: 0 -37px 0 27px;
+	width: 127px;
+	position: relative;
+	right:15px;
+	left:7px;
+	bottom:18px;
+}
+
+#password, #password2 {
+	margin: 0 -40px 0 30px;
+	width: 127px;
+	position: relative;
+	right:18px;
+	left:5px;
+	bottom:20px;
+}
+
+#conpassword, #conpassword2{
+	width: 120px;
+	margin: 0;
+	position: relative;
+	bottom: 20px;
+	left: 42px;
+}
+
+
+#birthday {
+	margin: 0 -40px 0 36px;
+	width: 127px;
+	position: relative;
+	right:15px;
+	left:2px;
+	bottom:21px;
+}
+
+.psw {
+	font-size: 10px;
+	
+	padding-bottom: 25px;
+	padding-left: 75px;
+	position: relative;
+	bottom:35px;
+}
+
+button {
+	width: 95px;
+	height: 50px;
+}
+
+ #login, #signup, #nextforg, #nextforg2 {
+	width: 85px;
+	height: 35px;
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	color: white;
+	font-weight: bold;
+	font-family: "Kristen ITC";
+	font-size: 12px;
+}
+
+#signup{
+	float: left;
+	margin-left: 75px;
+	border-radius: 50px;
+}
+
+#nextforg{
+	margin: 0;
+	border-radius: 50px;
+	position: relative;
+	right: 70px;
+}
+
+#nextforg2{
+	margin: 0;
+	border-radius: 50px;
+	position: relative;
+	right: 60px;
+}
+
+#login{
+	float: left;
+	margin-left: -25px;
+	border-radius: 50px;
+
+}
+
+#gender{
+	text-align: left;
+	margin-left: 52px;
+	font-size: 13px;
+}
+
+.logIn1 {
+	font-family: Forte;
+	font-size: 40px;		
+}
+
+/*#rememberMe {
+	
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 13px;
+}*/
+
+
+
+.passwordInput {
+	margin: 0 -40px 0 28px;
+	width: 127px;
+	position: relative;
+	right:15px;
+	left:4px;
+	bottom:37px;
+}
+
+.userNameInput{
+	margin: 0 -37px 0 23px;
+	width: 127px;
+	position: relative;
+	right:15px;
+	left:7px;
+	bottom:37px;
+
+}
+
+.inpp{
+	position: relative;
+	right: 75px;
+	margin:0;
+}
+
+.coninpp{
+	margin: 0;
+	position: relative;
+	right: 67px;
+	font-size: 14px;
+}
+
+.p{
+	position: relative;
+	right: 90px;
+}
+
+.q{
+	position: relative;
+	right: 88px;
+}

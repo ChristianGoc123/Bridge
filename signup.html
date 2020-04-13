@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bridge Log-In | Sign-Up</title>
+	<link rel="icon" type="image/jpg" href="./imgh/PIC.jpg">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div class="upper-borderWithBridge">
+		<img class="upper-border" src="./imgh/upper-border.jpg">
+		<h1 class="bridge">Bridge</h1>
+	</div>
+	<img class="logo" src="./imgh/bridge2 final.png">
+	<div class="form">
+		<div class="divBigLogo">
+			<img class="bigLogo" src="./imgh/bridge2 final.png">
+		</div>
+		<div class="full">
+			<h1 class="wc2bridge">Welcome to Bridge</h1>
+			<button class="signButton">Sign Up</button><a href= "login.html"><button class="logButton">Log In</button></a>
+			<h1 class="signUp1">Sign Up</h1>
+			<form action="verify.html" method="POST">
+				<p id="signToAcc">Sign Up for an Account:</p>
+				<p class="inpp">First name:</p><input  id="firstname" type="text" name="firstname" placeholder="First Name" required ><br><br>
+				<p class="inpp">Last name:</p><input id="lastname" type="text" name="lastname" placeholder="Last Name" required><br><br>
+				<p class="inpp p">Email:</p>  <input id="email" type="email" name="email" placeholder="bridge@email.com" required maxlength="50"><br><br>
+				<p class="inpp q">Phone:</p>          <input id="phoneNumber" type= "tel" name="tel" placeholder="Phone No.(optional)" maxlength="20"><br><br>
+				<p class="inpp">Username:</p><input id="username" type="text" name="username" placeholder="Username" required maxlength="30"><br><br>
+				<p class="inpp">Password:</p><input id="password" type="password" name="password" placeholder="Password" required min="11"><br><br>
+				<p class="coninpp">Confirm Pass:</p><input id="conpassword" type="password" name="password" placeholder="Confirm Password" required min="11"><br><br>
+				<p class="inpp">Birthday:</p><input id="birthday" type="date" name="birthday" required><br><br>
+				<div id=gender>
+				  Gender:<br>
+				  <input type="radio" name="gender" value="Male">Male<br>
+				  <input type="radio" name="gender" value="Female">Female<br>
+				  <input type="radio" name="gender" value="Other">Other<br><br>
+			    </div>
+			    <p class="terms">By creating an account, you are agreeing<br> 
+			    	to Bridge’s <a class= "termsandc" target="_blank" href="TermsC.html">Terms and Conditions.</a></p><br>
+				<button id="signup">Sign Up</button>	
+			<br><br><br><br><br>
+			</form>
+			
+		</div>
+	</div>
+</body>
+</html>

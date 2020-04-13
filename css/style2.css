@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	background: url("../img/background.jpg");
+	background-size: cover;
+}
+
+.upper-border {
+	min-width: 100%;
+	height: 100px;
+}
+/* Upper Logo */
+.logo {
+	width: 240px;
+	height: 135px;
+	margin-top: -120px;
+}
+
+.bridge {
+	margin: -100px 0 0 0;
+	text-align: center;
+	color: #66cccc;
+	font-family: "French Script MT";
+	font-weight: bold;
+	font-size: 500%;
+	padding: 0;
+}
+
+.bigLogo {
+	float: left;
+	width: 880px;
+	height: 495px;
+	margin: 0 0 0 -50px;
+	transition: all 1s;
+}
+
+.bigLogo:hover {
+	transform: scale(1.1);
+}
+
+.full {
+	float: right;
+	width: 35%;
+	margin-top: -500px;
+}
+
+/* From the original style.css (without the positions) */
+
+.wc2bridge {
+	font-size: 60px;
+	font-family: Gabriola;
+}
+
+.signButton {
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	color: white;
+	font-weight: bold;
+	font-family: "Kristen ITC";
+	font-size: 12px;
+}
+
+.logButton{
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	color: white;
+	font-weight: bold;
+	font-family: "Kristen ITC";
+	font-size: 12px;
+}
+
+
+.signUp1 {
+	font-family: Forte;
+	font-size: 40px;	
+}
+
+form {
+	font-size: 20px;
+	font-family: "Courgette";
+}
+
+#signToAcc {
+	font-size: 30px;
+
+}
+
+#firstname {
+	margin: 0 0 0 20px;
+}
+
+#lastname {
+	margin: 0 0 0 23px;
+}
+
+#email {
+	margin: 0 0 0 10px;
+}
+
+#phoneNumber {
+	margin: 0 0 0 5px;
+}
+
+#username {
+	margin: 0 0 0 20px;
+}
+
+#password {
+	margin: 0 0 0 30px;
+}
+
+#birthday {
+	margin: 0 0 0 30px;
+	padding-right: 23px;
+}
+
+.psw {
+	font-size: 10px;
+}
+
+button {
+	width: 95px;
+	height: 50px;
+}
+
+ #login, #signup {
+	width: 85px;
+	height: 35px;
+	background: linear-gradient(to right, #ea0df8, #00e2cf);
+	border: solid 3px #08034a;
+	color: white;
+	font-weight: bold;
+	font-family: "Kristen ITC";
+	font-size: 12px;
+}
+
+.logIn1 {
+	font-family: Forte;
+	font-size: 40px;		
+}
+
+#rememberMe {
+	font-size: 13px;
+}
+
+#passwordInput {
+	margin: 0 0 0 10px;
+}
